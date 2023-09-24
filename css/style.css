@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+        .padding_rm{
+            padding: 0 0 !important;
+        }
+        
+        /* Navbar Start */
+        .navbar{
+            background-color: white !important;
+        }
+        form{
+            background-color: #f9f9f9;
+            width: 460px;
+            height: 48px;
+            align-items: center;
+            padding: 10px;
+            margin-top: 6px;
+            border-radius: 5px;
+        }
+        form button{
+            border: 0;
+            background-color: #f9f9f9;
+            margin-top: 4px;
+        }
+        form button i{
+            font-size: 20px;
+        }
+        form input{
+            background-color: #f9f9f9 !important;
+            border: 0 !important;
+        }
+        .form-control:focus{
+            box-shadow: none;
+        }
+        .in_responsive{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        /* Summary Start */
+        .summary_title{
+            background-color: rgba(11, 35, 49, 1);
+            padding: 10px;
+        }
+        .summary_title div{
+            font-family: Lato;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 40px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: white;
+        }
+
+        .summary_filter{
+            width: 100%;
+            border-radius: 0;
+            height: 60px;
+            background-color: transparent;
+            color: black;
+            border: 2px solid black;
+        }
+        .dropdown .dropdown-menu {
+            width: 100%;
+            padding-left: 18%;
+            padding-right: 18%;
+            background-color: #f9f9f9;
+        }
+        .checkbox-container {
+           display: flex;
+           align-items: center;
+        }
+        
+        .dropdown .btn span{
+           font-size: 20px;
+        }
+
+        
+
+       .check__box{
+          height: 20px;
+          width: 20px;
+       }
+
+       
+
+
+       
+       /* Critical */
+       .critical .critical_part {
+         position: absolute;
+         top: 10px;
+         left: 74.5px;
+        }
+
+        
+        .Summary_alert{
+            background-color: rgba(249, 249, 249, 1);
+            padding: 6px;
+        }
+
+        /* Overall */
+        .overall_text{
+            position: absolute;
+            top: 46%;
+            left: 43.5%;
+        }
+
+        /* bg_closed */
+        .bg_closed{
+          background-color: rgba(255, 199, 0, 1);
+          padding: 10px;
+          border-radius: 50%;
+        }
+        .bg_ack{
+          background-color: rgba(80, 20, 208, 1);
+          padding: 10px;
+          border-radius: 50%;
+        }
+        .bg_critical{
+          background-color: rgba(250, 23, 23, 1);
+          padding: 10px;
+          border-radius: 50%;
+
+        }
+        .bg_major{
+          background-color: rgba(217, 33, 78, 1);
+          padding: 10px;
+          border-radius: 50%;
+        }
+
+        /* Box color */
+        .box{
+            height: 45px;
+            width: 45px;
+            display: inline-block;
+            background-color: rgba(90, 154, 215, 1);
+            margin-right: 26px;
+        }
+        .box-two{
+            background-color: rgba(112, 45, 161, 1) !important;
+        }
+        .box-three{
+            background-color: rgba(255, 192, 0, 1);
+        }
+        .box-four{
+            background-color: rgba(192, 0, 2, 1);
+        }
+        .box-five{
+            background-color: rgba(112, 172, 72, 1);
+        }
+        .donut_access{
+            text-align: center;
+        }
+        .box_content{
+            text-align: start;
+        }
+
+
+        /* Graph Chart */
+        #pieChart {
+            width: 100%; /* Set the canvas width to 100% of its parent container */
+            max-width: 400px; /* Optional: Set a maximum width for the chart */
+        }
+
+
+        /* CCTV Start */
+        .summary_bg{
+            background-color: #f9f9f9;
+        }
+        .cctv_bg{
+            background-color: rgba(241, 65, 108, 1);
+        }
+        .cctv{
+            font-family: Lato;
+            font-size: 18px !important;
+            font-weight: 500 !important;
+            line-height: 20px !important;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .camera_margin{
+            margin-right: auto !important;
+        }
+
+        /* Summary Color */
+        .cctv_twobg{
+            background-color: rgba(114, 57, 234, 1);
+        }
+        .cctv_threebg{
+            background-color: rgba(0, 158, 246, 1);
+        }
+        .cctv_fourbg{
+            background-color: rgba(241, 188, 0, 1);
+        }
+        .cctv_fivebg{
+            background-color: rgba(0, 149, 232, 1);
+        }
+        
+
+
+        /* Online Box */
+        .online_box{
+          background-color: rgba(71, 190, 125, 1);
+          padding: 10px;
+          display: inline-block;
+        }
+        .offline_box{
+          background-color: rgba(241, 65, 108, 1);
+          padding: 10px;
+          display: inline-block;
+        }
+
+
+
+        /* Usage Sum */
+        .usage_sum{
+            padding: 25px !important;
+        }
+
+        .usage_percntg{
+            margin-top: 110px;
+            padding-bottom: 104px;
+        }
+        .usage_percntg h4{
+            text-align: center;
+
+            color: #000;
+            text-align: center;
+            font-family: Lato;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        /* Modal */
+        .modal-title{
+            color: rgba(63, 66, 84, 1);
+        }
+        .modal-header .btn-close{
+            margin: 0 !important;
+        }
+        .modal-header{
+            background-color: rgb(215, 215, 215) !important;
+        }
+        .modal_search{
+            background-color: #fff !important;
+        }
+
+
+        /* Table */
+        .table .col-lg-3{
+            padding: 0 !important;
+        }
+        .table .col-lg-4{
+            padding: 0 !important;
+        }
+        .table .col-lg-5{
+            padding: 0 !important;
+        }
+        
+        
+        th{
+            border-left: 1px solid rgba(0, 0, 0, 0.42);
+            border-top: 1px solid rgba(0, 0, 0, 0.42);
+            border-bottom: 0;
+            background-color: rgba(0, 152, 244, 1) !important;
+            color: white !important;
+            font-family: Lato;
+            font-size: 20px !important;
+            font-weight: 200 !important;
+            line-height: 24px !important ;
+            letter-spacing: 0em !important;
+            text-align: center !important;
+            padding-top: 20px !important;
+            padding-bottom: 18px !important;
+        }
+        td{
+            border-bottom: 0;
+            border: 1px solid rgba(0, 0, 0, 0.42);
+            text-align: center;
+            height: 103px !important;
+            align-items: center !important;
+            padding-top: 22px !important;
+        }
+        .r_border{
+            border-right: none;
+        }
+
+        /* Footer Left */
+        .footer{
+            padding-bottom: 26px;
+            margin-top: 2px;
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+          .footer_main{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          .footer_left{
+            display: flex;
+            align-items: center;
+          }
+          .footer_left div:first-child{
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: center;
+          }
+          .footer_left div:nth-child(2){
+            padding: 13px 43px 12px 44px;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            margin-left: 16px;
+            margin-right: 16px;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: center;
+            border-radius: 5px;
+          }
+          /* Footer Right */
+          .pageitem{
+            display: flex;
+          }
+          .pageitem div a{
+            text-decoration: none;
+          }
+          .pageitem div:first-child a{
+            margin-right: 12px;
+            color: black;
+          }
+          .pageitem div:first-child a:hover{
+            color: rgba(0, 158, 246, 1);
+          }
+          .pageitem div:nth-child(2) a,
+          .pageitem div:nth-child(3) a,
+          .pageitem div:nth-child(4) a,
+          .pageitem div:nth-child(5) a{
+            padding: 8px 16px 9px 17px;
+            background-color: white;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            margin-right: 6px;
+            color: black;
+            border-radius: 5px;
+          }
+          .pageitem div:nth-child(2) a:hover,
+          .pageitem div:nth-child(3) a:hover,
+          .pageitem div:nth-child(4) a:hover,
+          .pageitem div:nth-child(5) a:hover,
+          .pageitem div:nth-child(6) a:hover{
+             background-color: rgba(0, 158, 246, 1);
+             border-color: rgba(0, 158, 246, 1);
+             color: white;
+          }
+          .pageitem div:nth-child(6) a{
+            padding: 8px 16px 9px 17px;
+            background-color: white;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            margin-right: 6px;
+            color: black;
+            border-radius: 5px;
+            margin-right: 10px;
+          }
+          .pageitem div:nth-child(7) a{
+            padding: 8px 12px 7px 12px;
+            background-color: rgba(0, 158, 246, 1);
+            color: white;
+            border: 1px solid rgba(0, 158, 246, 1);
+            border-radius: 5px;
+          }
+
+        
+        @media screen and (max-width:1200px) {
+            .overall_text{
+                position: absolute;
+                top: 46%;
+                left: 41.5%;
+            }
+        }
+        
+
+        @media screen and (max-width:992px) {
+            .in_responsive{
+            padding: auto;
+          }
+          .in_responsive_main{
+            display: flex;
+            justify-content: center;
+          }
+  
+          form{
+              background-color: #f9f9f9;
+              width: 100%;
+            }
+            .overall_text{
+                position: absolute;
+                top: 46%;
+                left: 38.5%;
+            }
+            .r_border{
+                border-right: 1px solid rgba(0, 0, 0, 0.42);
+            }
+
+            .footer_main{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              }
+              .pageitem{
+                display: flex;
+                margin-top: 30px;
+                padding: 10px;
+              }
+              .pageitem div:nth-child(2) a,
+              .pageitem div:nth-child(3) a,
+              .pageitem div:nth-child(4) a,
+              .pageitem div:nth-child(5) a,
+              .pageitem div:nth-child(6) a{
+                padding: 8px;
+              }
+              .dropdown .dropdown-menu ul li label{
+                margin-left: 3px !important;
+              }
+        }
+
+        @media screen and (max-width:768px)  {
+            .overall_text{
+                position: absolute;
+                top: 46%;
+                left: 41.5%;
+            }
+            .margin_responsive{
+                margin-top: 50px !important;
+            }
+            .modal_search{
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+
+        @media screen and (max-width:450px)  {
+            .overall_text{
+                position: absolute;
+                top: 46%;
+                left: 38.5%;
+            }
+        }
+        @media screen and (max-width:320px)  {
+            .overall_text{
+                position: absolute;
+                top: 46%;
+                left: 37.5%;
+                font-size: 14px;
+            }
+        }
+        
